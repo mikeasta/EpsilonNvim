@@ -1,8 +1,8 @@
-<center><h1>EpsilonNvim</h1></center>
-<center>⚡ Fast and lightweight Neovim config for Python Development ⚡</center>
-<center>⚡ Startup time about 70 ms ⚡</center>
-<center>🐍 Configurated LSP, linters and formaters for Python 🐍</center>
-<center>🤖 Autosave with automatic code format 🤖</center>
+<h1><p align="center">EpsilonNvim</p></h1>
+<p align="center">⚡ Fast and lightweight Neovim config for Python Development ⚡</p>
+<p align="center">⚡ Startup time about 70 ms ⚡</p>
+<p align="center">🐍 Configurated LSP, linters and formaters for Python 🐍</p>
+<p align="center">🤖 Autosave with automatic code format 🤖</p>
 
 ## 🔎 Preview
 ![alt text](screenshots/1.png)
