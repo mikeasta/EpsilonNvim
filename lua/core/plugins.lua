@@ -85,9 +85,6 @@ lazy.setup({
 		dependencies = { "nvim-lua/plenary.nvim" },
 	},
 
-	-- Reduce hotkeys delay
-	{ "max397574/better-escape.nvim" },
-
 	-- Buffer line
 	{ "akinsho/bufferline.nvim", version = "*", dependencies = "nvim-tree/nvim-web-devicons" },
 
@@ -97,24 +94,8 @@ lazy.setup({
 	-- Highlight other uses of the word under cursor
 	{ "RRethy/vim-illuminate" },
 
-	-- Code troubleshooting
-	{
-		"folke/trouble.nvim",
-		dependencies = { "nvim-tree/nvim-web-devicons" },
-	},
-
 	-- Multiple terminals
 	{ "akinsho/toggleterm.nvim", version = "*", config = true },
-
-	-- Help with keymaps
-	{
-		"folke/which-key.nvim",
-		event = "VeryLazy",
-		init = function()
-			vim.o.timeout = true
-			vim.o.timeoutlen = 300
-		end,
-	},
 
 	-- Automatic brackets, quotes, etc.
 	{ "echasnovski/mini.nvim", version = false },
