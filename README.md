@@ -18,7 +18,5 @@
     
 ## ✅ TODO
 - [ ] Fix keymaps
-- [ ] Configurate WhichKey
-- [ ] Configurate BetterEscape
 - [ ] Add vertical line (respect to PEP row length limit)
 - [ ] Add formater and linter for C++
