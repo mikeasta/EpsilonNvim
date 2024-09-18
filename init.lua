@@ -19,7 +19,7 @@ require("plugins.todo")
 -- require "plugins.better-escape"
 require("plugins.bufferline")
 require("plugins.ale")
-require("plugins.trouble")
+--require("plugins.trouble")
 --require "plugins.whichkey"
 require("plugins.mini")
 require("plugins.conform")

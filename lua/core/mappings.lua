@@ -1,5 +1,11 @@
 vim.g.mapleader = " "
 
+-- Navigation
+vim.keymap.set({ "n", "v", "i" }, "<C-h>", "<Left>")
+vim.keymap.set({ "n", "v", "i" }, "<C-j>", "<Down>")
+vim.keymap.set({ "n", "v", "i" }, "<C-k>", "<Up>")
+vim.keymap.set({ "n", "v", "i" }, "<C-l>", "<Right>")
+
 -- Quit
 vim.keymap.set("n", "<C-q>", "<cmd>:q<CR>")
 
@@ -17,7 +23,7 @@ vim.keymap.set("n", "<leader>tf", ":NvimTreeFocus<CR>")
 -- BufferLine
 vim.keymap.set("n", "<Tab>", ":BufferLineCycleNext<CR>")
 vim.keymap.set("n", "<S-Tab>", ":BufferLineCyclePrev<CR>")
-vim.keymap.set("n", "<C-l>", ":BufferLineCloseOthers<CR>")
+-- vim.keymap.set("n", "<C-l>", ":BufferLineCloseOthers<CR>")
 
 -- TodoList
 vim.keymap.set("n", "<leader>nl", ":TodoTelescope<CR>")

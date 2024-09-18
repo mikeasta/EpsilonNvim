@@ -17,6 +17,7 @@
 - CTRL + n - Open Nvim Tree
     
 ## ✅ TODO
+- [ ] Fix keymaps
 - [ ] Configurate WhichKey
 - [ ] Configurate BetterEscape
 - [ ] Add vertical line (respect to PEP row length limit)
