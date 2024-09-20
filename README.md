@@ -17,7 +17,7 @@
 - CTRL + n - Open Nvim Tree
     
 ## ✅ TODO
-- [x] Fix keymaps
+- [ ] Fix keymaps
 - [ ] Add vertical line (respect to PEP row length limit)
 - [ ] Implement DAP for Python
 - [ ] Add formater and linter for C++ + DAP 

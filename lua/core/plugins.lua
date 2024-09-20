@@ -41,6 +41,12 @@ lazy.setup({
 		priority = 1000,
 	},
 
+	{
+		"ellisonleao/gruvbox.nvim",
+		priority = 1000,
+		config = true,
+	},
+
 	-- Bottom status-bar
 	{
 		"nvim-lualine/lualine.nvim",

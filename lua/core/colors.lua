@@ -1,6 +1,6 @@
 -- Color Scheme
 function SetColor()
-  vim.cmd.colorscheme "catppuccin"
+	vim.cmd.colorscheme("gruvbox")
 end
 
 SetColor()
