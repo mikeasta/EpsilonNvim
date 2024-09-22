@@ -11,11 +11,6 @@
 ![alt text](screenshots/4.png)
 ![alt text](screenshots/5.png)
 
-## 🔑 Crusial plugin keymaps
-- SPC + ff - Telescope search
-- SPC + r with focused code window - Compile and Run
-- CTRL + n - Open Nvim Tree
-    
 ## ✅ TODO
 - [ ] Fix keymaps
 - [ ] Add vertical line (respect to PEP row length limit)

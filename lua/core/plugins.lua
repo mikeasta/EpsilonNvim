@@ -21,7 +21,7 @@ lazy.setup({
 	{ "williamboman/mason.nvim" },
 	{ "williamboman/mason-lspconfig.nvim" },
 
-	-- (?)
+	-- Syntax tree
 	{ "nvim-treesitter/nvim-treesitter" },
 
 	-- Language Server Protocol
@@ -82,7 +82,7 @@ lazy.setup({
 		},
 	},
 
-	-- Color highlight
+	-- Highlights color codes with their own color
 	{ "norcalli/nvim-colorizer.lua" },
 
 	-- TODO Comments
@@ -93,12 +93,6 @@ lazy.setup({
 
 	-- Buffer line
 	{ "akinsho/bufferline.nvim", version = "*", dependencies = "nvim-tree/nvim-web-devicons" },
-
-	-- Code analysis
-	{ "dense-analysis/ale" },
-
-	-- Highlight other uses of the word under cursor
-	{ "RRethy/vim-illuminate" },
 
 	-- Multiple terminals
 	{ "akinsho/toggleterm.nvim", version = "*", config = true },
@@ -131,5 +125,11 @@ lazy.setup({
 			position = "bot",
 			size = 15,
 		},
+	},
+
+	-- Window with error and warning description
+	{
+		"folke/trouble.nvim",
+		dependencies = { "nvim-tree/nvim-web-devicons" },
 	},
 })
